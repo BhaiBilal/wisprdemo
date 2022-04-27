@@ -1,0 +1,14 @@
+.menu{
+    height : 5rem;
+    width : 5rem;
+    padding: 0.2rem;
+}
+
+.btn, .btn::after, .btn::before{
+    content : '';
+    display: block;
+    height : 14px;
+    width: 100%;
+    color : #fff;
+    margin-bottom: 0.2rem;
+}

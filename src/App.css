@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin : 0;
+  font-family : 'Segoe UI'
+
+}
+
+:root{
+  --bg-color : #5F30FF;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.App {
+  width : 100vw;
+  height : auto;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+
+@media(min-width:320px) and (max-width:480px){
+  html{
+    font-size: 30%;
+  }
+}
+
+@media(min-width:481px) and (max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+  html{
+    font-size: 50%;
+  }
+}
+
+
